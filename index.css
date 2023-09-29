@@ -23,21 +23,32 @@ img {
 }
 
 body {
+    width: 1000px;
     font-family: 'League Gothic', sans-serif;
 }
 
 
 
 .header {
-    width: 1920px;
+    width: 1000px;
     padding-left: 50px;
     background-color: rgb(241, 191, 64);
 }
 
 .main{
-    width: 1920px;
+    width: 1000px;
     padding-left: 50px;
     background-color: rgb(219, 165, 28);
     padding-bottom: 200;
 
+}
+
+footer{
+    width: 1000px;
+    background-color: rgb(241, 191, 64);
+    padding-left: 240px;
+}
+
+img{
+    
 }
