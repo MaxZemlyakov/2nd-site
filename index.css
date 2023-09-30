@@ -11,6 +11,7 @@ html {
     margin: 0;
     padding: 0;
     font-weight: normal;
+    font-size: 2rem;
 }
   
   ol, ul {
@@ -23,20 +24,21 @@ img {
 }
 
 body {
-    width: 1000px;
+    width: 700px;
     font-family: 'League Gothic', sans-serif;
+    
 }
 
 
 
 .header {
-    width: 1000px;
+    width: 700px;
     padding-left: 50px;
     background-color: rgb(241, 191, 64);
 }
 
 .main{
-    width: 1000px;
+    width: 700px;
     padding-left: 50px;
     background-color: rgb(219, 165, 28);
     padding-bottom: 200;
@@ -44,11 +46,11 @@ body {
 }
 
 footer{
-    width: 1000px;
+    width: 700px;
     background-color: rgb(241, 191, 64);
     padding-left: 240px;
 }
 
-img{
-    
+h6{
+    padding-left: 500px;
 }
