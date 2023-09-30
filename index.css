@@ -32,6 +32,7 @@ body {
 
 
 .header {
+    height: 200px;
     width: 700px;
     padding-left: 50px;
     background-color: rgb(241, 191, 64);
@@ -53,4 +54,43 @@ footer{
 
 h6{
     padding-left: 500px;
+}
+
+.img1{
+    width: 55%;
+    margin-left: 280px;
+}
+
+.img2{
+margin-top: 0px;
+padding-top: 30px;
+}
+
+.a2{
+margin-left: 30px;
+}
+    
+.a3{
+ margin-left: 30px;
+} 
+.a4{
+margin-left: 30px;
+}       
+.a5{
+ margin-left: 30px;
+}
+.botom1, .botom2, .botom3{
+    display: flexbox;
+    background-color: rgb(252, 146, 7);
+    text-decoration-line:none;
+    border: 2px solid black;
+}
+
+.price1, .price2, .price3{
+    margin-left: 70px;
+    margin-top: -40px;
+    width: 65px;
+    display: block;
+    background-color: rgb(233, 209, 157);
+    border: 2px solid black;
 }
