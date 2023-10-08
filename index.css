@@ -26,6 +26,7 @@ img {
 body {
     width: 700px;
     font-family: 'League Gothic', sans-serif;
+
     
 }
 
@@ -35,20 +36,20 @@ body {
     height: 200px;
     width: 700px;
     padding-left: 50px;
-    background-color: rgb(241, 191, 64);
+    background-color: rgb(241, 198, 88);
 }
 
 .main{
     width: 700px;
     padding-left: 50px;
-    background-color: rgb(219, 165, 28);
+    background-color: rgb(251, 250, 246);
     padding-bottom: 200;
 
 }
 
 footer{
     width: 700px;
-    background-color: rgb(241, 191, 64);
+   
     padding-left: 240px;
 }
 
@@ -58,7 +59,7 @@ h6{
 
 .img1{
     width: 55%;
-    margin-left: 80px;
+    margin-left: 0px;
 }
 
 .img2{
@@ -96,13 +97,21 @@ margin-left: 30px;
 }
 
 .d1 {
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-left: 0px;
+    margin-left: -50px;
+    width: 700px;
+    height: 400px;
 }
 .botom4{
+    padding-right: 0px;
+    margin-left: 250px;
+    margin-right: 0px;
     display: flexbox;
-    background-color: rgb(252, 146, 7);
     text-decoration-line:none;
     border: 2px solid black;
+    font-size: smaller ;
+
 }
 
 .gif1 {
