@@ -5,20 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registration</title>
     <link rel="stylesheet" href="index.css"> 
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        form
+        {
+            width: 400px;
+            padding: 20px;
+            margin: 20px;
+            background-color: #f9f9f9;
+            text-align: left;
+        }
+    </style>
 </head>
 <body background="images/12.gif">
 
-    <div> 
-        <form action="" method="post" class="registration">
-            <p style="font-size:80%;">Введите e-mail: <input type="email" name="e-mail"></p> 
-            <p style="font-size:80%;">Введите сотовый: <input type="tel" ></p>
-            <p style="font-size:80%;">Введите дату рождения: <input type="date" value="date"></p>
-            <p style="font-size:80%;">Придумайте логин: <input type="text" name="login"> </p>
-            <p style="font-size:80%;">Придумайте пароль: <input type="text" name="password"></p>
-            <p style="font-size:80%;">Введите необходимое колличество: <input type="number"></p>
+    <div class="container"> 
+        <form action="mail.php" method="post">
+            <legend>Регистрация:</legend>
+            <div class="form-group">
+                <label for="name">Введите ваше имя:</label>
+                <input type="text" name="UserName" class="form-control" id="name" placeholder="Иван">
+            </div>
+            <div class="form-group">
+                <label for="tel">Введите ваш сотовый:</label>
+                <input type="tel" name="UserNumber" class="form-control" id="tel" placeholder="(XXX)XXX-XXXX">
+            </div>
+            <div class="form-group">
+                <label for="e-mail">Введите ваш e-mail:</label>
+                <input type="email" name="UserEmail" class="form-control" id="e-mail" placeholder="ivan@yandex.ru" pattern="ivan@yandex.ru">
+            </div>
+            <div class="form-group">
+                <label for="login">Придумайте логин:</label>
+                <input type="text" name="UserLogin" class="form-control" id="login">
+            </div>
+            <div class="form-group">
+                <label for="pass">Придумайте пароль:</label>
+                <input type="password" name="UserPassword" class="form-control" id="pass">
+            </div>
             <p>
-                <input type="reset" value="отмена" style="width: 80px; font-size: 50%; background-color: rgb(235, 54, 54);">
-                <input type="submit" value="отправить" style="font-size: 50%; background-color: aquamarine;">
+                <input type="reset" value="отмена" style="background-color: rgb(235, 54, 54);">
+                <input type="submit" value="отправить" style="background-color: aquamarine;">
             </p>
         </form>
     </div>
